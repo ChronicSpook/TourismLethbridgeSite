@@ -10,7 +10,6 @@ To make the Python code to work in your system you need to do the following
 <br>Make sure pip is installed with this command pip --version
 <br>If no install is detected do these steps based on your OS
 # Windows
-
 <br>run this line to install the dependencies needed to run the python script: 
 <br>pip install pandas mysql-connector-python dateparser spacy validators python-dateutil
 <br>When running the software you need to setup certain variables in the code for it to actually run on your computer
@@ -20,6 +19,8 @@ There are lines of code you have to change due to how your database may be set u
 <br>In apptest.py in lines 21-24, you should change the connection to the database to the MySQL server IP, and change the login to the database that holds the information from the CSVs
 <br>In db.php in lines 2-5, You should do the same as before and connect to the database that holds all the logins and other event information
 # Creating the Database
+<br>When setting up the database, there will be sql files that you can use to import into your MySQL database, along with preset data that you can change whenever
+<br>You can also setup your own database with your own variables, though you would have to change a fair amount of lines in all the code for it to work properly
 # Running the Python Script
 <br>Your python script may NOT work depending on what command you need to run python
 <br>On line 12 of the displayTable.php change this line of code to the command you use to call python programs
