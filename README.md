@@ -17,6 +17,8 @@ To make the Python code to work in your system you need to do the following
 # MACOS/LINUX
 # Connecting to the database
 There are lines of code you have to change due to how your database may be set up
+<br>In apptest.py in lines 21-24, you should change the connection to the database to the MySQL server IP, and change the login to the database that holds the information from the CSVs
+<br>In db.php in lines 2-5, You should do the same as before and connect to the database that holds all the logins and other event information
 # Creating the Database
 # Running the Python Script
 <br>Your python script may NOT work depending on what command you need to run python
