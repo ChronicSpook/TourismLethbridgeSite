@@ -14,6 +14,7 @@ To make the Python code to work in your system you need to do the following
 <br>pip install pandas mysql-connector-python dateparser spacy validators python-dateutil
 <br>When running the software you need to setup certain variables in the code for it to actually run on your computer
 # MACOS/LINUX
+<br>This section is a work in progress and will most likely not be updated
 # Connecting to the database
 There are lines of code you have to change due to how your database may be set up
 <br>In apptest.py in lines 21-24, you should change the connection to the database to the MySQL server IP, and change the login to the database that holds the information from the CSVs
